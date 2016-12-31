@@ -2,7 +2,7 @@
 
 Repositório onde colocarei tudo o que for desenvolvido ao estudar o [livro] da Casa do Código.
 
-## Como executar os arquivos
+## Como configurar o Go
 
 * Adicionar um *alias* chamado **go** no arquivo *~/.bash_aliases* utilizando a imagem Docker *golang:alpine*
 ```sh
