@@ -6,7 +6,7 @@ Repositório onde colocarei tudo o que for desenvolvido ao estudar o [livro] da 
 
 * Adicionar um *alias* chamado **go** no arquivo *~/.bash_aliases* utilizando a imagem Docker *golang:alpine*
 ```sh
-alias go='export WORKDIR=/go/src/github.com/danielfs/${PWD##*/} && docker run --rm -v "$PWD":${WORKDIR} -w ${WORKDIR} golang:alpine go'
+alias go='export WORKDIR=/go/src/github.com/danielfs/${PWD##*/} && docker run --rm -i -t -p 8080:8080 -v "$PWD":${WORKDIR} -w ${WORKDIR} golang:alpine go'
 ```
 
 * Abrir uma nova sessão no terminal e executar *go version*, como abaixo:
